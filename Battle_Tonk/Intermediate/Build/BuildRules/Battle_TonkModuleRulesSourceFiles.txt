@@ -1,0 +1,3 @@
+C:\Users\Daxx\Documents\GitHub\Battle_Tonk\Battle_Tonk\Source\Battle_Tonk\Battle_Tonk.Build.cs
+C:\Users\Daxx\Documents\GitHub\Battle_Tonk\Battle_Tonk\Source\Battle_Tonk.Target.cs
+C:\Users\Daxx\Documents\GitHub\Battle_Tonk\Battle_Tonk\Source\Battle_TonkEditor.Target.cs
