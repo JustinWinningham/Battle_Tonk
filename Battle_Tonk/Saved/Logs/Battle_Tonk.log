@@ -1,4 +1,4 @@
-﻿Log file open, 06/25/18 16:47:10
+﻿Log file open, 06/25/18 20:37:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Battle_Tonk
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-953188868) SRandInit(-953188868).
+LogInit: Display: RandInit(368364157) SRandInit(368364157).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.263491
+LogStats: Stats thread started at 0.327043
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.097s to configure plugins.
+LogStreaming: Display: Took  0.100s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Binaries/Win64/UE4Editor-Battle_Tonk.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -220,503 +220,1144 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: C:/UnrealEngine/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.25-23.47.11:891][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.25-23.47.11:891][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.25-23.47.11:908][  0]LogInit: Computer: DAXX-PC
-[2018.06.25-23.47.11:908][  0]LogInit: User: Daxx
-[2018.06.25-23.47.11:908][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.25-23.47.11:908][  0]LogInit: High frequency timer resolution =3.897232 MHz
-[2018.06.25-23.47.11:909][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2018.06.25-23.47.11:909][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.25-23.47.11:909][  0]LogMemory: Process Physical Memory: 273.38 MB used, 273.38 MB peak
-[2018.06.25-23.47.11:909][  0]LogMemory: Process Virtual Memory: 264.53 MB used, 264.53 MB peak
-[2018.06.25-23.47.11:909][  0]LogMemory: Physical Memory: 8574.46 MB used,  7623.85 MB free, 16198.32 MB total
-[2018.06.25-23.47.11:909][  0]LogMemory: Virtual Memory: 4794.14 MB used,  7623.85 MB free, 134217728.00 MB total
-[2018.06.25-23.47.11:922][  0]LogInit: Using OS detected language (en-US).
-[2018.06.25-23.47.11:922][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.25-23.47.11:925][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.25-23.47.12:353][  0]LogStreaming: Display: Took  0.431s to EndInitTextLocalization.
-[2018.06.25-23.47.12:353][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.25-23.47.12:381][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.25-23.47.12:381][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.25-23.47.12:556][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.25-23.47.12:603][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2018.06.25-23.47.12:603][  0]LogD3D11RHI:       11127/0/8099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.25-23.47.12:609][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.06.25-23.47.12:609][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.06.25-23.47.12:611][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.25-23.47.12:611][  0]LogD3D11RHI:       0/0/8099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.25-23.47.12:611][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.25-23.47.12:619][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.25-23.47.12:619][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.25-23.47.12:619][  0]LogWindows: EnumDisplayDevices:
-[2018.06.25-23.47.12:619][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2018.06.25-23.47.12:619][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.06.25-23.47.12:619][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.06.25-23.47.12:619][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.06.25-23.47.12:619][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.06.25-23.47.12:620][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.06.25-23.47.12:620][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.06.25-23.47.12:620][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.25-23.47.12:620][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2018.06.25-23.47.12:620][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.25-23.47.12:620][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.25-23.47.12:620][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2018.06.25-23.47.12:651][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.25-23.47.12:651][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.25-23.47.12:651][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.25-23.47.12:669][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.25-23.47.12:717][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Intermediate/Shaders/WorkingDirectory/18200/).
-[2018.06.25-23.47.12:717][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daxx/AppData/Local/Temp/UnrealShaderWorkingDir/138BC09D43A7C7AA8FE783B8DB29553F/'.
-[2018.06.25-23.47.12:915][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.25-23.47.12:928][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.25-23.47.12:939][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.25-23.47.12:951][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.25-23.47.12:962][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.25-23.47.12:974][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.25-23.47.12:987][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.25-23.47.12:999][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.25-23.47.13:006][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.25-23.47.13:017][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.25-23.47.13:028][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.25-23.47.13:038][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.25-23.47.13:048][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.25-23.47.13:059][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.25-23.47.13:071][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.25-23.47.13:092][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.25-23.47.13:092][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.25-23.47.13:103][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.25-23.47.13:104][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.25-23.47.13:139][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.25-23.47.13:149][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.25-23.47.13:160][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.25-23.47.13:172][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.25-23.47.13:182][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.25-23.47.13:194][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.25-23.47.13:194][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.25-23.47.13:282][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.25-23.47.13:282][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.25-23.47.13:282][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.25-23.47.13:936][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.25-23.47.14:013][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Daxx/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.25-23.47.14:013][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Daxx/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.25-23.47.14:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.25-23.47.14:013][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.25-23.47.14:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.25-23.47.14:013][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.25-23.47.14:032][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.25-23.47.14:049][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daxx/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.25-23.47.14:049][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.25-23.47.14:049][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.25-23.47.14:065][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.25-23.47.14:066][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.25-23.47.14:066][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.25-23.47.14:067][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.25-23.47.14:208][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2018.06.25-23.47.14:521][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.25-23.47.14:679][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.25-23.47.14:683][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.25-23.47.14:683][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.25-23.47.14:683][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.25-23.47.14:683][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.25-23.47.14:683][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.25-23.47.14:722][  0]LogNetVersion: Battle_Tonk , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3225371091)
-[2018.06.25-23.47.15:456][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.177296 seconds
-[2018.06.25-23.47.15:467][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.25-23.47.15:467][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.06.25-23.47.15:467][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.25-23.47.17:544][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.25-23.47.17:582][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.25-23.47.18:046][  0]SourceControl: Source control is disabled
-[2018.06.25-23.47.18:046][  0]SourceControl: Source control is disabled
-[2018.06.25-23.47.18:072][  0]SourceControl: Source control is disabled
-[2018.06.25-23.47.18:098][  0]SourceControl: Source control is disabled
-[2018.06.25-23.47.18:748][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.25-23.47.19:118][  0]LogOcInput: OculusInput pre-init called
-[2018.06.25-23.47.19:268][  0]LogEngine: Initializing Engine...
-[2018.06.25-23.47.23:900][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-AB243745
-[2018.06.25-23.47.23:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.25-23.47.23:902][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.25-23.47.24:129][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.25-23.47.24:222][  0]LogInit: XAudio2 using 'Headset Earphone (ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.06.25-23.47.24:236][  0]LogInit: FAudioDevice initialized.
-[2018.06.25-23.47.24:344][  0]LogDerivedDataCache: Saved boot cache 0.11s 74MB C:/Users/Daxx/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.25-23.47.24:363][  0]LogInit: Texture streaming: Enabled
-[2018.06.25-23.47.24:377][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.25-23.47.24:389][  0]LogInit: Transaction tracking system initialized
-[2018.06.25-23.47.24:408][  0]BlueprintLog: New page: Editor Load
-[2018.06.25-23.47.24:467][  0]LocalizationService: Localization service is disabled
-[2018.06.25-23.47.24:558][  0]LogConsoleResponse: Display: 
-[2018.06.25-23.47.24:716][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.25-23.47.24:716][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.25-23.47.24:716][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.25-23.47.24:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.25-23.47.24:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.25-23.47.25:016][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/' took 0.02s
-[2018.06.25-23.47.25:022][  0]SourceControl: Source control is disabled
-[2018.06.25-23.47.25:022][  0]Cmd: MAP LOAD FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.25-23.47.25:022][  0]LightingResults: New page: Lighting Build
-[2018.06.25-23.47.25:025][  0]MapCheck: New page: Map Check
-[2018.06.25-23.47.25:025][  0]LightingResults: New page: Lighting Build
-[2018.06.25-23.47.25:548][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.25-23.47.25:559][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.25-23.47.25:574][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.25-23.47.25:624][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.537ms to complete.
-[2018.06.25-23.47.25:624][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.601
-[2018.06.25-23.47.25:752][  0]LogCollectionManager: Loaded 0 collections in 0.001110 seconds
-[2018.06.25-23.47.25:792][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Collections/' took 0.01s
-[2018.06.25-23.47.25:792][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/Developers/Daxx/Collections/' took 0.01s
-[2018.06.25-23.47.25:792][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/Collections/' took 0.01s
-[2018.06.25-23.47.25:792][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.25-23.47.25:801][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2453 classes and 560 folders.
-[2018.06.25-23.47.25:806][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.06.25-23.47.26:153][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.06.25-23.47.26:163][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.06.25-23.47.26:186][  0]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.25-23.47.26:190][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.25-23.47.26:199][  0]LogSlate: Took 0.005830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.25-23.47.26:287][  0]LogRenderer: Reallocating scene render targets to support 1296x612 Format 10 NumSamples 1 (Frame:1).
-[2018.06.25-23.47.26:437][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.06.25-23.47.26:437][  0]LogLoad: (Engine Initialization) Total time: 17.03 seconds
-[2018.06.25-23.47.26:437][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.25-23.47.26:796][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.25-23.47.26:825][  0]LogSlate: Took 0.003876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.25-23.47.27:116][  1]LogAssetRegistry: Asset discovery search completed in 12.9305 seconds
-[2018.06.25-23.47.27:118][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.25-23.47.27:118][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2018.06.25-23.48.10:339][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.25-23.54.15:864][328]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.06.25-23.54.15:995][329]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleTonk
-[2018.06.25-23.54.15:995][329]LogTemp: CWD: C:\UnrealEngine\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.25-23.54.15:995][329]LogTemp: Initial Dir: C:\UnrealEngine\UE_4.19
-[2018.06.25-23.54.15:996][329]LogTemp: Env CWD: C:\UnrealEngine\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.25-23.54.15:996][329]LogTemp: BranchPath = DAXX-PC/C/UnrealEngine/UE_4.19/Engine/Binaries --- GameBranchPath = DAXX-PC/C/UnrealEngine/UE_4.19/Engine/Binaries
-[2018.06.25-23.54.15:996][329]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Daxx\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.06.25-23.54.23:636][964]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/Battle_Tonk.Battle_TonkGameMode'
-[2018.06.25-23.54.24:777][ 91]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.25-23.54.51:551][868]LogSlate: Window 'Project Settings' being destroyed
-[2018.06.25-23.54.51:555][868]LogSlate: Window 'Project Settings' being destroyed
-[2018.06.25-23.54.53:307][ 53]LogSavePackage: Save=102.10ms
-[2018.06.25-23.54.53:308][ 53]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_DefaultFA7BF5B1480F6E0F96CA879D9C99EA78.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.06.25-23.54.53:314][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.06.25-23.54.53:420][ 53]LogSavePackage: Save=55.79ms
-[2018.06.25-23.54.53:420][ 53]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_Default_BuiltData488AF21A44B681676D3ADBB426125A45.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.06.25-23.54.53:422][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.06.25-23.58.32:686][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.06.25-23.58.35:460][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.06.25-23.58.35:585][796]Cmd: DELETE
-[2018.06.25-23.58.35:585][796]Cmd: ACTOR DELETE
-[2018.06.25-23.58.35:587][796]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.06.25-23.58.35:597][796]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2018.06.25-23.58.35:864][827]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.25-23.58.35:923][828]Cmd: DELETE
-[2018.06.25-23.58.35:923][828]Cmd: ACTOR DELETE
-[2018.06.25-23.58.35:926][828]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
-[2018.06.25-23.58.35:936][828]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.06.25-23.58.36:335][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2018.06.25-23.58.37:450][  2]Cmd: TRANSACTION UNDO
-[2018.06.25-23.58.37:450][  2]LogEditorTransaction: Undo Clicking on Actors
-[2018.06.25-23.58.37:877][ 51]Cmd: TRANSACTION UNDO
-[2018.06.25-23.58.37:877][ 51]LogEditorTransaction: Undo Delete Actors
-[2018.06.25-23.58.39:766][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2018.06.25-23.58.40:488][353]Cmd: DELETE
-[2018.06.25-23.58.40:488][353]Cmd: ACTOR DELETE
-[2018.06.25-23.58.40:489][353]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.06.25-23.58.40:499][353]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.06.25-23.58.40:992][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
-[2018.06.25-23.58.41:449][461]Cmd: DELETE
-[2018.06.25-23.58.41:449][461]Cmd: ACTOR DELETE
-[2018.06.25-23.58.41:451][461]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.06.25-23.58.41:460][461]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.06.25-23.58.41:945][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2018.06.25-23.58.42:480][577]Cmd: DELETE
-[2018.06.25-23.58.42:480][577]Cmd: ACTOR DELETE
-[2018.06.25-23.58.42:482][577]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.06.25-23.58.42:491][577]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2018.06.25-23.58.43:339][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
-[2018.06.25-23.58.43:804][726]Cmd: DELETE
-[2018.06.25-23.58.43:804][726]Cmd: ACTOR DELETE
-[2018.06.25-23.58.43:805][726]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.06.25-23.58.43:815][726]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2018.06.25-23.58.44:312][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.06.25-23.58.44:631][817]Cmd: DELETE
-[2018.06.25-23.58.44:631][817]Cmd: ACTOR DELETE
-[2018.06.25-23.58.44:632][817]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.06.25-23.58.44:641][817]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.06.25-23.58.45:406][908]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2018.06.25-23.58.46:985][ 93]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
-[2018.06.25-23.58.51:610][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.25-23.59.36:501][564]LogEditorActor: Deleted Actor: SkyLight
-[2018.06.25-23.59.36:510][564]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2018.06.25-23.59.37:119][635]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2018.06.25-23.59.37:128][635]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.06.25-23.59.38:637][814]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2018.06.25-23.59.38:649][814]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2018.06.25-23.59.42:449][265]LogEditorActor: Deleted Actor: AmbientSound
-[2018.06.25-23.59.42:457][265]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2018.06.25-23.59.44:315][481]LogEditorActor: Deleted Actor: PostProcessVolume
-[2018.06.25-23.59.44:323][481]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.06.25-23.59.51:621][141]LogSavePackage: Save=67.29ms
-[2018.06.25-23.59.51:621][141]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_Default2DDAE1F647961384E837D08D6C105DB5.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.06.25-23.59.51:624][141]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.06.25-23.59.51:681][141]LogSavePackage: Save=29.57ms
-[2018.06.25-23.59.51:681][141]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_Default_BuiltDataEF8EBF8E4019797FB964AAAE1244FD86.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.06.25-23.59.51:682][141]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.06.25-23.59.59:221][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.00.32:401][151]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.00.32:471][151]LogSavePackage: Save=50.55ms
-[2018.06.26-00.00.32:471][151]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_Default2990380B4C81D4043EAF0AA2B119CFA0.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.06.26-00.00.32:473][151]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.06.26-00.00.32:530][151]LogSavePackage: Save=26.35ms
-[2018.06.26-00.00.32:530][151]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_Default_BuiltDataFC8D8E444981C020BC2A18867499E546.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.06.26-00.00.32:531][151]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.06.26-00.01.18:884][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.01.18:949][792]LogSavePackage: Save=51.53ms
-[2018.06.26-00.01.18:949][792]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_DefaultB86A3DCF4DF6908452A1C0A4FD248CDE.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.06.26-00.01.18:952][792]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.06.26-00.01.19:006][792]LogSavePackage: Save=30.31ms
-[2018.06.26-00.01.19:006][792]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_Default_BuiltDataE2839C77471ECD19BED3E896B733A3DE.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.06.26-00.01.19:007][792]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.06.26-00.01.24:134][398]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.01.24:162][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.01.27:103][748]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.01.27:560][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.01.37:994][618]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.01.38:012][618]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.01.57:929][945]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.02.04:085][670]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.02.04:105][670]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.02.20:059][553]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.02.20:076][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.02.45:413][895]LogSlate: Window 'Message' being destroyed
-[2018.06.26-00.03.22:190][284]Cmd: DELETE
-[2018.06.26-00.03.22:190][284]Cmd: ACTOR DELETE
-[2018.06.26-00.03.22:191][284]LogEditorActor: Deleted Actor: LevelStreamingVolume
-[2018.06.26-00.03.22:199][284]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.06.26-00.03.23:841][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.03.36:867][ 43]LogActorFactory: Actor Factory created Plane
-[2018.06.26-00.03.37:167][ 77]LogActorFactory: Actor Factory created Plane
-[2018.06.26-00.03.44:769][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.03.50:068][597]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.26-00.03.51:496][767]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.26-00.03.55:004][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.04.00:299][802]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.26-00.04.12:779][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.04.17:196][431]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
-[2018.06.26-00.04.17:222][431]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.06.26-00.04.17:222][431]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
-[2018.06.26-00.04.17:242][431]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
-[2018.06.26-00.04.17:265][431]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
-[2018.06.26-00.04.17:290][431]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
-[2018.06.26-00.04.17:333][431]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.26-00.04.17:345][431]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.26-00.04.17:360][431]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.26-00.04.17:375][431]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.26-00.04.17:398][431]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
-[2018.06.26-00.04.17:413][431]LogShaderCompilers: Display: Shaders left to compile 168
-[2018.06.26-00.04.17:413][431]LogShaderCompilers: Display: Shaders left to compile 158
-[2018.06.26-00.04.17:413][431]LogShaderCompilers: Display: Shaders left to compile 148
-[2018.06.26-00.04.17:413][431]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
-[2018.06.26-00.04.17:433][431]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
-[2018.06.26-00.04.17:451][431]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2018.06.26-00.04.18:492][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2018.06.26-00.04.19:986][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.04.20:092][666]LogShaderCompilers: Display: Shaders left to compile 178
-[2018.06.26-00.04.20:867][734]LogShaderCompilers: Display: Shaders left to compile 168
-[2018.06.26-00.04.20:937][740]LogShaderCompilers: Display: Shaders left to compile 158
-[2018.06.26-00.04.20:956][741]LogShaderCompilers: Display: Shaders left to compile 148
-[2018.06.26-00.04.21:709][813]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
-[2018.06.26-00.04.21:732][813]LogEditorActor: Deleted 1 Actors (0.026 secs)
-[2018.06.26-00.04.22:682][921]LogShaderCompilers: Display: Shaders left to compile 138
-[2018.06.26-00.04.23:125][970]LogShaderCompilers: Display: Shaders left to compile 128
-[2018.06.26-00.04.23:606][ 26]LogShaderCompilers: Display: Shaders left to compile 118
-[2018.06.26-00.04.23:619][ 27]LogShaderCompilers: Display: Shaders left to compile 108
-[2018.06.26-00.04.24:274][ 97]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.04.24:917][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2018.06.26-00.04.25:703][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.04.25:708][261]LogShaderCompilers: Display: Shaders left to compile 98
-[2018.06.26-00.04.26:042][296]LogShaderCompilers: Display: Shaders left to compile 88
-[2018.06.26-00.04.26:512][337]LogShaderCompilers: Display: Shaders left to compile 78
-[2018.06.26-00.04.26:547][340]LogShaderCompilers: Display: Shaders left to compile 68
-[2018.06.26-00.04.28:459][514]LogShaderCompilers: Display: Shaders left to compile 58
-[2018.06.26-00.04.28:744][540]LogShaderCompilers: Display: Shaders left to compile 48
-[2018.06.26-00.04.29:257][591]LogShaderCompilers: Display: Shaders left to compile 38
-[2018.06.26-00.04.29:300][595]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.06.26-00.04.31:271][816]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.06.26-00.04.31:541][848]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.06.26-00.04.43:004][208]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.06.26-00.04.43:012][208]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2018.06.26-00.04.44:072][335]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
-[2018.06.26-00.04.54:371][567]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.06.26-00.04.54:390][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.05.11:204][574]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.06.26-00.05.11:222][574]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 112
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 111
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 110
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 109
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 108
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 107
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 106
-[2018.06.26-00.05.17:730][574]LogShaderCompilers: Display: Shaders left to compile 105
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 104
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 103
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 102
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 101
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 100
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 99
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 98
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 97
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 96
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 95
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 94
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 93
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 92
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 91
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 90
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 89
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 88
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 87
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 86
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 85
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 84
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 83
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 82
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 81
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 80
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 79
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 78
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 77
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 76
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 75
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 74
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 73
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 72
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 71
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 70
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 69
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 68
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 67
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 66
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 65
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 64
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 63
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 62
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 61
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 60
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 59
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 58
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 57
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 56
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 55
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 54
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 53
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 52
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 51
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 50
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 49
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 48
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 47
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 46
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 45
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 44
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 43
-[2018.06.26-00.05.17:731][574]LogShaderCompilers: Display: Shaders left to compile 42
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 41
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 40
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 39
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 38
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 37
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 36
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 35
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 34
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 33
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 32
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 30
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 29
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 27
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 26
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 25
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 24
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 23
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 19
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 17
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.06.26-00.05.17:732][574]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.06.26-00.05.20:064][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.05.20:776][926]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.26-00.05.41:346][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.05.41:646][390]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.26-00.05.46:778][997]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.06.26-00.05.49:282][294]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.06.26-00.05.49:769][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.05.49:843][359]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.26-00.05.49:857][359]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.05.49:857][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.26-00.05.49:857][359]PIE: New page: PIE session: Minimal_Default (Jun 25, 2018, 10:05:49 AM)
-[2018.06.26-00.05.49:857][359]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.26-00.05.49:866][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009152s)
-[2018.06.26-00.05.49:867][359]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.26-00.05.49:867][359]LogPlayLevel: PIE: World Init took: (0.000820s)
-[2018.06.26-00.05.49:867][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010172s)
-[2018.06.26-00.05.49:896][359]LogInit: XAudio2 using 'Headset Earphone (ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.06.26-00.05.49:903][359]LogInit: FAudioDevice initialized.
-[2018.06.26-00.05.49:944][359]LogLoad: Game class is 'GameModeBase'
-[2018.06.26-00.05.49:946][359]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.25-17.05.49
-[2018.06.26-00.05.49:947][359]LogWorld: Bringing up level for play took: 0.001746
-[2018.06.26-00.05.49:951][359]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.06.26-00.05.49:952][359]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.036
-[2018.06.26-00.05.49:952][359]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.05.56:310][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.05.56:341][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.05.58:842][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.06.16:701][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.26-00.06.16:775][472]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.26-00.06.16:790][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.06.16:790][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.26-00.06.16:790][472]PIE: New page: PIE session: Minimal_Default (Jun 25, 2018, 10:06:16 AM)
-[2018.06.26-00.06.16:790][472]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
-[2018.06.26-00.06.16:799][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009071s)
-[2018.06.26-00.06.16:800][472]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.06.26-00.06.16:800][472]LogPlayLevel: PIE: World Init took: (0.000685s)
-[2018.06.26-00.06.16:800][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009932s)
-[2018.06.26-00.06.16:832][472]LogInit: XAudio2 using 'Headset Earphone (ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.06.26-00.06.16:839][472]LogInit: FAudioDevice initialized.
-[2018.06.26-00.06.16:868][472]LogLoad: Game class is 'GameModeBase'
-[2018.06.26-00.06.16:870][472]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.06.25-17.06.16
-[2018.06.26-00.06.16:870][472]LogWorld: Bringing up level for play took: 0.001765
-[2018.06.26-00.06.16:871][472]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.882
-[2018.06.26-00.06.16:871][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.06.34:732][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.06.34:767][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
-[2018.06.26-00.06.37:128][884]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.26-00.06.37:198][884]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2018.06.26-00.06.37:398][884]LogSavePackage: Save=252.30ms
-[2018.06.26-00.06.37:398][884]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_DefaultB3141A104B70F2DC1136219D25FCB6B8.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.06.26-00.06.37:402][884]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.06.26-00.06.37:489][884]LogSavePackage: Save=32.11ms
-[2018.06.26-00.06.37:489][884]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Minimal_Default_BuiltData11BF3E024429CA4CB122428049AE6879.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.06.26-00.06.37:490][884]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.06.26-03.37.06:751][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.26-03.37.06:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.26-03.37.06:774][  0]LogInit: Computer: DAXX-PC
+[2018.06.26-03.37.06:774][  0]LogInit: User: Daxx
+[2018.06.26-03.37.06:774][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.26-03.37.06:774][  0]LogInit: High frequency timer resolution =3.897228 MHz
+[2018.06.26-03.37.06:775][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.06.26-03.37.06:775][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.26-03.37.06:775][  0]LogMemory: Process Physical Memory: 274.11 MB used, 274.11 MB peak
+[2018.06.26-03.37.06:775][  0]LogMemory: Process Virtual Memory: 264.61 MB used, 264.61 MB peak
+[2018.06.26-03.37.06:775][  0]LogMemory: Physical Memory: 5717.11 MB used,  10481.21 MB free, 16198.32 MB total
+[2018.06.26-03.37.06:775][  0]LogMemory: Virtual Memory: 4794.14 MB used,  10481.21 MB free, 134217728.00 MB total
+[2018.06.26-03.37.06:795][  0]LogInit: Using OS detected language (en-US).
+[2018.06.26-03.37.06:795][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.26-03.37.06:799][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.26-03.37.07:265][  0]LogStreaming: Display: Took  0.470s to EndInitTextLocalization.
+[2018.06.26-03.37.07:265][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.26-03.37.07:286][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.26-03.37.07:286][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.26-03.37.07:542][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.26-03.37.07:604][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.06.26-03.37.07:604][  0]LogD3D11RHI:       11127/0/8099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.26-03.37.07:617][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.06.26-03.37.07:617][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.06.26-03.37.07:620][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.26-03.37.07:620][  0]LogD3D11RHI:       0/0/8099 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.26-03.37.07:620][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.26-03.37.07:629][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.26-03.37.07:629][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.26-03.37.07:629][  0]LogWindows: EnumDisplayDevices:
+[2018.06.26-03.37.07:629][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.06.26-03.37.07:630][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.06.26-03.37.07:630][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.06.26-03.37.07:630][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.06.26-03.37.07:630][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.06.26-03.37.07:630][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.06.26-03.37.07:630][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.06.26-03.37.07:630][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.26-03.37.07:631][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.06.26-03.37.07:631][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.26-03.37.07:631][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.26-03.37.07:631][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.06.26-03.37.07:672][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.26-03.37.07:672][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.26-03.37.07:672][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.26-03.37.07:690][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.26-03.37.07:739][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Intermediate/Shaders/WorkingDirectory/16156/).
+[2018.06.26-03.37.07:739][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Daxx/AppData/Local/Temp/UnrealShaderWorkingDir/3A7432D5487EDA1DA8740EA0B8D729FD/'.
+[2018.06.26-03.37.07:985][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.26-03.37.08:002][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.26-03.37.08:018][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.26-03.37.08:032][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.26-03.37.08:048][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.26-03.37.08:064][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.26-03.37.08:080][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.26-03.37.08:095][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.26-03.37.08:102][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.26-03.37.08:116][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.26-03.37.08:132][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.26-03.37.08:146][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.26-03.37.08:161][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.26-03.37.08:176][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.26-03.37.08:190][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.26-03.37.08:214][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.26-03.37.08:214][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.26-03.37.08:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.26-03.37.08:227][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.26-03.37.08:266][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.26-03.37.08:279][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.26-03.37.08:292][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.26-03.37.08:304][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.26-03.37.08:319][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.26-03.37.08:334][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.26-03.37.08:334][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.26-03.37.08:434][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.26-03.37.08:434][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.26-03.37.08:434][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.26-03.37.09:115][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.26-03.37.09:189][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Daxx/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.26-03.37.09:189][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Daxx/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.26-03.37.09:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.26-03.37.09:189][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.26-03.37.09:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.26-03.37.09:189][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.26-03.37.09:206][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.26-03.37.09:218][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Daxx/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.26-03.37.09:218][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.26-03.37.09:218][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.26-03.37.09:230][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.26-03.37.09:231][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.26-03.37.09:231][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.26-03.37.09:231][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.26-03.37.09:339][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.06.26-03.37.09:800][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.26-03.37.09:937][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.26-03.37.09:939][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.26-03.37.09:939][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.26-03.37.09:939][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.26-03.37.09:939][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.26-03.37.09:939][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.26-03.37.09:967][  0]LogNetVersion: Battle_Tonk , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3225371091)
+[2018.06.26-03.37.10:386][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.085608 seconds
+[2018.06.26-03.37.10:392][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.26-03.37.10:392][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.06.26-03.37.10:392][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.26-03.37.11:898][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.26-03.37.11:925][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.26-03.37.12:314][  0]SourceControl: Source control is disabled
+[2018.06.26-03.37.12:314][  0]SourceControl: Source control is disabled
+[2018.06.26-03.37.12:337][  0]SourceControl: Source control is disabled
+[2018.06.26-03.37.12:355][  0]SourceControl: Source control is disabled
+[2018.06.26-03.37.12:826][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.26-03.37.13:056][  0]LogOcInput: OculusInput pre-init called
+[2018.06.26-03.37.13:157][  0]LogEngine: Initializing Engine...
+[2018.06.26-03.37.13:206][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-AB243745
+[2018.06.26-03.37.13:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.26-03.37.13:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.26-03.37.13:429][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.26-03.37.13:472][  0]LogInit: XAudio2 using 'Headset Earphone (ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.26-03.37.13:487][  0]LogInit: FAudioDevice initialized.
+[2018.06.26-03.37.13:647][  0]LogDerivedDataCache: Saved boot cache 0.16s 74MB C:/Users/Daxx/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.26-03.37.13:661][  0]LogInit: Texture streaming: Enabled
+[2018.06.26-03.37.13:675][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.26-03.37.13:687][  0]LogInit: Transaction tracking system initialized
+[2018.06.26-03.37.13:706][  0]BlueprintLog: New page: Editor Load
+[2018.06.26-03.37.13:770][  0]LocalizationService: Localization service is disabled
+[2018.06.26-03.37.13:864][  0]LogConsoleResponse: Display: 
+[2018.06.26-03.37.14:060][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.26-03.37.14:060][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.26-03.37.14:060][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.26-03.37.14:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.26-03.37.14:061][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.26-03.37.14:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/' took 0.02s
+[2018.06.26-03.37.14:425][  0]SourceControl: Source control is disabled
+[2018.06.26-03.37.14:426][  0]Cmd: MAP LOAD FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.26-03.37.14:431][  0]LightingResults: New page: Lighting Build
+[2018.06.26-03.37.14:433][  0]MapCheck: New page: Map Check
+[2018.06.26-03.37.14:433][  0]LightingResults: New page: Lighting Build
+[2018.06.26-03.37.14:967][  0]LogAIModule: Creating AISystem for world MainLvl
+[2018.06.26-03.37.14:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.26-03.37.14:991][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.26-03.37.15:039][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.815ms to complete.
+[2018.06.26-03.37.15:039][  0]LogFileHelpers: Loading map 'MainLvl' took 0.615
+[2018.06.26-03.37.15:195][  0]LogCollectionManager: Loaded 0 collections in 0.001130 seconds
+[2018.06.26-03.37.15:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/Collections/' took 0.01s
+[2018.06.26-03.37.15:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/Developers/Daxx/Collections/' took 0.01s
+[2018.06.26-03.37.15:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/Collections/' took 0.01s
+[2018.06.26-03.37.15:250][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.26-03.37.15:260][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2453 classes and 560 folders.
+[2018.06.26-03.37.15:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.06.26-03.37.15:603][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.06.26-03.37.15:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.06.26-03.37.15:672][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.26-03.37.15:677][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.26-03.37.15:686][  0]LogSlate: Took 0.005942 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.26-03.37.15:785][  0]LogRenderer: Reallocating scene render targets to support 1296x612 Format 10 NumSamples 1 (Frame:1).
+[2018.06.26-03.37.15:854][  0]LogSlate: Took 0.007358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.26-03.37.15:966][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.06.26-03.37.15:966][  0]LogLoad: (Engine Initialization) Total time: 12.53 seconds
+[2018.06.26-03.37.15:966][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.26-03.37.16:325][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.26-03.37.16:647][  1]LogAssetRegistry: Asset discovery search completed in 7.3315 seconds
+[2018.06.26-03.37.16:650][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.26-03.37.16:650][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
+[2018.06.26-03.37.19:446][ 15]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.06.26-03.38.03:424][332]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.06.26-03.38.04:644][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.38.05:052][519]LogEditorActor: Deleted Actor: AmbientSound
+[2018.06.26-03.38.05:061][519]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.06.26-03.38.07:729][833]LogEditorActor: Deleted Actor: SkyLight
+[2018.06.26-03.38.07:737][833]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.06.26-03.38.09:433][ 34]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.06.26-03.38.09:442][ 34]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.06.26-03.38.15:580][766]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.26-03.38.15:589][766]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.06.26-03.38.15:910][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.26-03.38.15:918][801]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.06.26-03.38.16:367][848]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.26-03.38.16:377][848]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.06.26-03.38.17:109][906]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.26-03.38.17:118][906]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.06.26-03.38.18:540][ 69]LogEditorActor: Deleted Actor: PostProcessVolume
+[2018.06.26-03.38.18:548][ 69]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.06.26-03.38.19:328][160]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.06.26-03.38.19:336][160]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.06.26-03.38.19:703][202]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.26-03.38.19:711][202]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.06.26-03.38.20:636][310]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.06.26-03.38.20:643][310]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.06.26-03.38.24:864][816]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.26-03.38.24:873][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.38.24:946][816]LogSavePackage: Save=54.84ms
+[2018.06.26-03.38.24:946][816]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl2626A0AD4AEBE28716DFF1B7E1E54772.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.38.24:950][816]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.38.24:977][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.38.25:021][816]LogSavePackage: Save=36.33ms
+[2018.06.26-03.38.25:021][816]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltData2DFD2B3A443227CA3B568A859C3BFA7F.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.38.25:022][816]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.38.39:400][291]LogSlate: Took 0.011598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.06.26-03.38.40:827][424]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.06.26-03.40.21:972][459]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.06.26-03.40.21:990][459]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2018.06.26-03.40.22:004][459]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.06.26-03.40.22:017][459]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.06.26-03.40.22:030][459]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.06.26-03.40.22:043][459]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.06.26-03.40.22:055][459]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.06.26-03.40.22:068][459]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.06.26-03.40.22:081][459]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.06.26-03.40.22:094][459]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.40.22:108][459]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.40.22:121][459]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.06.26-03.40.22:134][459]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.06.26-03.40.22:147][459]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.06.26-03.40.22:160][459]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.06.26-03.40.22:175][459]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.06.26-03.40.27:145][680]Cmd: TRANSACTION UNDO
+[2018.06.26-03.40.27:145][680]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.06.26-03.40.38:715][939]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.40.46:017][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.40.47:049][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.40.47:485][848]LogSavePackage: Save=423.56ms
+[2018.06.26-03.40.47:485][848]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl735A4E7B4350C3A41A1A34A440021DF4.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.40.47:488][848]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.40.47:512][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.40.47:542][848]LogSavePackage: Save=27.54ms
+[2018.06.26-03.40.47:542][848]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltDataDAF6FE5F4BDBBC7F5AA1948C053EDFD5.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.40.47:543][848]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.40.58:595][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.40.58:687][128]MapCheck: New page: Map Check
+[2018.06.26-03.40.58:701][128]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.26-03.40.58:701][128]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.26-03.40.58:787][128]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.26-03.40.58:810][128]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.06.26-03.40.58:818][128]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.26-03.40.58:818][128]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.40.58:818][128]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.06.26-03.40.59:632][128]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.40.59:632][128]TextureStreamingBuild: Display: Compiling optional shaders took 0.849 seconds.
+[2018.06.26-03.40.59:640][128]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
+[2018.06.26-03.40.59:646][128]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.06.26-03.40.59:655][128]LightingResults: New page: Lighting Build - Jun 25, 2018, 1:40:59 PM
+[2018.06.26-03.40.59:791][128]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.26-03.40.59:903][128]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.26-03.40.59:917][128]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.26-03.41.00:930][128]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.26-03.41.00:931][128]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16156
+[2018.06.26-03.41.05:370][128]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.06.26-03.41.05:370][128]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.26-03.41.05:371][128]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.26-03.41.05:371][128]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.26-03.41.05:371][128]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.26-03.41.05:371][128]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.26-03.41.05:588][128]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.26-03.41.05:588][128]MapCheck: New page: MainLvl - Jun 25, 2018, 1:41:05 PM
+[2018.06.26-03.41.05:589][128]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.06.26-03.41.05:640][128]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 51.619ms to complete.
+[2018.06.26-03.41.05:663][128]LogEditorBuildUtils: Build time 0:06
+[2018.06.26-03.41.05:734][129]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2018.06.26-03.41.05:743][129]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2018.06.26-03.41.05:754][130]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.26-03.41.05:754][130]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.26-03.41.31:933][737]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2018.06.26-03.41.32:387][737]Job has failed! Job is closed while Tasks are still PENDING
+[2018.06.26-03.41.32:389][737]DumpUnbuiltLightIteractions
+[2018.06.26-03.41.32:389][737]Lights with unbuilt interactions: 1
+[2018.06.26-03.41.32:389][737]    Light LightSource
+[2018.06.26-03.41.32:389][737]
+[2018.06.26-03.41.32:389][737]Primitives with unbuilt interactions: 64
+[2018.06.26-03.41.32:389][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_32
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_31
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_30
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_29
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_28
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_27
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_26
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_25
+[2018.06.26-03.41.32:390][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_24
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_23
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_22
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_21
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_20
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_19
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_18
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_17
+[2018.06.26-03.41.32:391][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_16
+[2018.06.26-03.41.32:392][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_15
+[2018.06.26-03.41.32:392][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_14
+[2018.06.26-03.41.32:392][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_13
+[2018.06.26-03.41.32:392][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_12
+[2018.06.26-03.41.32:392][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_11
+[2018.06.26-03.41.32:392][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_10
+[2018.06.26-03.41.32:393][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_9
+[2018.06.26-03.41.32:393][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_8
+[2018.06.26-03.41.32:393][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_7
+[2018.06.26-03.41.32:393][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_6
+[2018.06.26-03.41.32:393][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_5
+[2018.06.26-03.41.32:393][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_4
+[2018.06.26-03.41.32:393][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_3
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_2
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_1
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_0
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_63
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_62
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_61
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_60
+[2018.06.26-03.41.32:394][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_59
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_58
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_57
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_56
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_55
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_54
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_53
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_52
+[2018.06.26-03.41.32:395][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_51
+[2018.06.26-03.41.32:396][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_50
+[2018.06.26-03.41.32:396][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_49
+[2018.06.26-03.41.32:396][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_48
+[2018.06.26-03.41.32:396][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_47
+[2018.06.26-03.41.32:396][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_46
+[2018.06.26-03.41.32:396][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_45
+[2018.06.26-03.41.32:396][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_44
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_43
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_42
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_41
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_40
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_39
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_38
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_37
+[2018.06.26-03.41.32:397][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_36
+[2018.06.26-03.41.32:398][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_35
+[2018.06.26-03.41.32:398][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_34
+[2018.06.26-03.41.32:398][737]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_33
+[2018.06.26-03.41.32:454][738]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.26-03.41.32:454][738]MapCheck: New page: MainLvl - Jun 25, 2018, 1:41:32 PM
+[2018.06.26-03.41.32:454][738]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.06.26-03.41.32:506][738]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 52.066ms to complete.
+[2018.06.26-03.41.33:570][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.41.33:676][877]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.41.33:680][877]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.41.35:394][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.42.05:655][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.42.05:737][745]MapCheck: New page: Map Check
+[2018.06.26-03.42.05:745][745]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.26-03.42.05:746][745]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.26-03.42.05:796][745]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.26-03.42.05:801][745]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.06.26-03.42.05:806][745]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.26-03.42.05:806][745]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.42.05:806][745]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.06.26-03.42.06:343][745]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.42.06:343][745]TextureStreamingBuild: Display: Compiling optional shaders took 0.551 seconds.
+[2018.06.26-03.42.06:345][745]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.06.26-03.42.06:349][745]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2018.06.26-03.42.06:357][745]LightingResults: New page: Lighting Build - Jun 25, 2018, 1:42:06 PM
+[2018.06.26-03.42.06:426][745]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.26-03.42.06:429][745]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.26-03.42.06:429][745]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.26-03.42.06:430][745]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.26-03.42.06:430][745]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16156
+[2018.06.26-03.42.10:961][745]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.26-03.42.10:962][745]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.26-03.42.10:962][745]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.26-03.42.10:962][745]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.26-03.42.10:962][745]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.26-03.42.11:137][745]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.26-03.42.11:137][745]MapCheck: New page: MainLvl - Jun 25, 2018, 1:42:11 PM
+[2018.06.26-03.42.11:138][745]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.06.26-03.42.11:185][745]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 47.596ms to complete.
+[2018.06.26-03.42.11:208][745]LogEditorBuildUtils: Build time 0:05
+[2018.06.26-03.42.49:150][450]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2018.06.26-03.42.49:986][450]Job has failed! Job is closed while Tasks are still PENDING
+[2018.06.26-03.42.49:988][450]DumpUnbuiltLightIteractions
+[2018.06.26-03.42.49:988][450]Lights with unbuilt interactions: 1
+[2018.06.26-03.42.49:989][450]    Light LightSource
+[2018.06.26-03.42.49:989][450]
+[2018.06.26-03.42.49:989][450]Primitives with unbuilt interactions: 64
+[2018.06.26-03.42.49:989][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_63
+[2018.06.26-03.42.49:989][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_62
+[2018.06.26-03.42.49:989][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_61
+[2018.06.26-03.42.49:989][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_60
+[2018.06.26-03.42.49:989][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_59
+[2018.06.26-03.42.49:989][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_58
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_57
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_56
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_55
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_54
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_53
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_52
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_51
+[2018.06.26-03.42.49:990][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_50
+[2018.06.26-03.42.49:991][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_49
+[2018.06.26-03.42.49:991][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_48
+[2018.06.26-03.42.49:991][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_47
+[2018.06.26-03.42.49:991][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_46
+[2018.06.26-03.42.49:991][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_45
+[2018.06.26-03.42.49:991][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_44
+[2018.06.26-03.42.49:991][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_43
+[2018.06.26-03.42.49:992][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_42
+[2018.06.26-03.42.49:992][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_41
+[2018.06.26-03.42.49:992][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_40
+[2018.06.26-03.42.49:992][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_39
+[2018.06.26-03.42.49:992][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_38
+[2018.06.26-03.42.49:992][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_37
+[2018.06.26-03.42.49:992][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_36
+[2018.06.26-03.42.49:993][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_35
+[2018.06.26-03.42.49:993][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_34
+[2018.06.26-03.42.49:993][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_33
+[2018.06.26-03.42.49:993][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_32
+[2018.06.26-03.42.49:993][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_31
+[2018.06.26-03.42.49:993][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_30
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_29
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_28
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_27
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_26
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_25
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_24
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_23
+[2018.06.26-03.42.49:994][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_22
+[2018.06.26-03.42.49:995][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_21
+[2018.06.26-03.42.49:995][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_20
+[2018.06.26-03.42.49:995][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_19
+[2018.06.26-03.42.49:995][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_18
+[2018.06.26-03.42.49:995][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_17
+[2018.06.26-03.42.49:995][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_16
+[2018.06.26-03.42.49:995][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_15
+[2018.06.26-03.42.49:996][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_14
+[2018.06.26-03.42.49:996][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_13
+[2018.06.26-03.42.49:996][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_12
+[2018.06.26-03.42.49:996][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_11
+[2018.06.26-03.42.49:996][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_10
+[2018.06.26-03.42.49:996][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_9
+[2018.06.26-03.42.49:997][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_8
+[2018.06.26-03.42.49:997][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_7
+[2018.06.26-03.42.49:997][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_6
+[2018.06.26-03.42.49:997][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_5
+[2018.06.26-03.42.49:997][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_4
+[2018.06.26-03.42.49:997][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_3
+[2018.06.26-03.42.49:997][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_2
+[2018.06.26-03.42.49:998][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_1
+[2018.06.26-03.42.49:998][450]    Primitive LandscapeComponent /Game/MainLvl.MainLvl:PersistentLevel.Landscape_0.LandscapeComponent_0
+[2018.06.26-03.42.50:020][451]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.26-03.42.50:020][451]MapCheck: New page: MainLvl - Jun 25, 2018, 1:42:50 PM
+[2018.06.26-03.42.50:021][451]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.06.26-03.42.50:070][451]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 49.565ms to complete.
+[2018.06.26-03.42.51:828][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.42.55:416][ 88]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.42.55:419][ 88]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.42.55:850][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.42.55:855][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.42.56:127][139]LogSavePackage: Save=258.84ms
+[2018.06.26-03.42.56:127][139]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvlD50D8F434E08C277F1534886FE82743B.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.42.56:130][139]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.42.56:157][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.42.56:187][139]LogSavePackage: Save=27.92ms
+[2018.06.26-03.42.56:187][139]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltDataF912B3484F98EFD750288DA200F8AD83.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.42.56:190][139]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.42.57:012][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.43.00:111][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.43.00:370][606]LogSavePackage: Save=247.78ms
+[2018.06.26-03.43.00:370][606]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl0CE4016E4F0D6A1054ECDBB7F2881598.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.43.00:374][606]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.43.00:399][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.43.00:429][606]LogSavePackage: Save=27.55ms
+[2018.06.26-03.43.00:429][606]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltData2B9DFB02432E40B8F74F8E97E57301A4.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.43.00:430][606]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.43.07:200][180]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.43.07:203][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.43.07:457][180]LogSavePackage: Save=242.61ms
+[2018.06.26-03.43.07:457][180]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl2A19CD894DB1332EAF5C7DAD4DAEB857.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.43.07:461][180]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.43.07:484][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.43.07:514][180]LogSavePackage: Save=27.72ms
+[2018.06.26-03.43.07:514][180]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltData402C94F94A52F66C13B1B48A3F644D39.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.43.07:515][180]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.43.08:044][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.43.08:144][255]MapCheck: New page: Map Check
+[2018.06.26-03.43.08:156][255]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.26-03.43.08:156][255]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.26-03.43.08:204][255]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.26-03.43.08:209][255]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2018.06.26-03.43.08:213][255]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.43.08:213][255]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.06.26-03.43.08:738][255]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.26-03.43.08:738][255]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.43.08:738][255]TextureStreamingBuild: Display: Compiling optional shaders took 0.537 seconds.
+[2018.06.26-03.43.08:740][255]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.06.26-03.43.08:744][255]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2018.06.26-03.43.08:753][255]LightingResults: New page: Lighting Build - Jun 25, 2018, 1:43:08 PM
+[2018.06.26-03.43.08:820][255]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.26-03.43.08:823][255]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.26-03.43.08:823][255]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.26-03.43.08:824][255]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.26-03.43.08:824][255]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16156
+[2018.06.26-03.43.13:331][255]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.26-03.43.13:331][255]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.26-03.43.13:331][255]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.26-03.43.13:331][255]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.26-03.43.13:331][255]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.26-03.43.13:500][255]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.26-03.43.13:501][255]MapCheck: New page: MainLvl - Jun 25, 2018, 1:43:13 PM
+[2018.06.26-03.43.13:501][255]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.06.26-03.43.13:550][255]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 49.923ms to complete.
+[2018.06.26-03.43.13:573][255]LogEditorBuildUtils: Build time 0:05
+[2018.06.26-03.43.44:764][830]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.43.58:149][981]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.43.58:153][981]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.44.06:029][220]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.26-03.44.15:396][968]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.26-03.44.20:978][424]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.26-03.44.22:276][532]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.26-03.44.23:045][585]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.06.26-03.44.24:298][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.45.21:648][100]Job is a success!
+[2018.06.26-03.45.22:039][101]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.06.26-03.45.22:039][101]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.06.26-03.45.22:039][101]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb
+[2018.06.26-03.45.22:039][101]LogVolumetricLightmapImport:      Bricks at Level
+[2018.06.26-03.45.22:039][101]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2018.06.26-03.45.22:040][101]LogVolumetricLightmapImport:          1: 33.3% covering 1.6% of volume
+[2018.06.26-03.45.22:040][101]LogVolumetricLightmapImport:          2: 33.3% covering 0.0% of volume
+[2018.06.26-03.45.27:812][101]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:812][101]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.06.26-03.45.27:813][101]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:814][101]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2018.06.26-03.45.27:814][101]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:814][101]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2018.06.26-03.45.27:814][101]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:814][101]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
+[2018.06.26-03.45.27:815][101]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:815][101]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2018.06.26-03.45.27:815][101]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:815][101]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:815][101]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 512X512)
+[2018.06.26-03.45.27:816][101]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 512X512)
+[2018.06.26-03.45.27:816][101]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:816][101]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 512X512)
+[2018.06.26-03.45.27:817][101]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:817][101]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 512X512)
+[2018.06.26-03.45.27:817][101]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:817][101]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 512X512)
+[2018.06.26-03.45.27:817][101]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:818][101]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 512X512)
+[2018.06.26-03.45.27:818][101]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:818][101]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 512X512)
+[2018.06.26-03.45.27:818][101]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:818][101]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 512X512)
+[2018.06.26-03.45.27:819][101]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:819][101]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 512X512)
+[2018.06.26-03.45.27:819][101]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:819][101]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 512X512)
+[2018.06.26-03.45.27:819][101]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:820][101]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 512X512)
+[2018.06.26-03.45.27:820][101]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:820][101]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 512X512)
+[2018.06.26-03.45.27:820][101]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:821][101]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 512X512)
+[2018.06.26-03.45.27:821][101]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:821][101]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 512X512)
+[2018.06.26-03.45.27:821][101]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:821][101]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 512X512)
+[2018.06.26-03.45.27:822][101]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:822][101]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 512X512)
+[2018.06.26-03.45.27:822][101]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:822][101]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 512X512)
+[2018.06.26-03.45.27:822][101]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:823][101]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 512X512)
+[2018.06.26-03.45.27:823][101]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:823][101]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 512X512)
+[2018.06.26-03.45.27:823][101]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:823][101]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 512X512)
+[2018.06.26-03.45.27:823][101]LogTexture: Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:824][101]LogTexture: Display: Building textures: LQ_Lightmap_0_26 (DXT1, 512X512)
+[2018.06.26-03.45.27:824][101]LogTexture: Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:824][101]LogTexture: Display: Building textures: LQ_Lightmap_0_27 (DXT1, 512X512)
+[2018.06.26-03.45.27:824][101]LogTexture: Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:824][101]LogTexture: Display: Building textures: LQ_Lightmap_0_28 (DXT1, 512X512)
+[2018.06.26-03.45.27:825][101]LogTexture: Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:825][101]LogTexture: Display: Building textures: LQ_Lightmap_0_29 (DXT1, 512X512)
+[2018.06.26-03.45.27:825][101]LogTexture: Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:825][101]LogTexture: Display: Building textures: LQ_Lightmap_0_30 (DXT1, 512X512)
+[2018.06.26-03.45.27:825][101]LogTexture: Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:826][101]LogTexture: Display: Building textures: LQ_Lightmap_0_31 (DXT1, 512X512)
+[2018.06.26-03.45.27:826][101]LogTexture: Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:826][101]LogTexture: Display: Building textures: LQ_Lightmap_0_32 (DXT1, 512X512)
+[2018.06.26-03.45.27:827][101]LogTexture: Display: Building textures: HQ_Lightmap0_33 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:827][101]LogTexture: Display: Building textures: LQ_Lightmap_0_33 (DXT1, 512X512)
+[2018.06.26-03.45.27:827][101]LogTexture: Display: Building textures: HQ_Lightmap0_34 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:827][101]LogTexture: Display: Building textures: LQ_Lightmap_0_34 (DXT1, 512X512)
+[2018.06.26-03.45.27:827][101]LogTexture: Display: Building textures: HQ_Lightmap0_35 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:828][101]LogTexture: Display: Building textures: LQ_Lightmap_0_35 (DXT1, 512X512)
+[2018.06.26-03.45.27:828][101]LogTexture: Display: Building textures: HQ_Lightmap0_36 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:828][101]LogTexture: Display: Building textures: LQ_Lightmap_0_36 (DXT1, 512X512)
+[2018.06.26-03.45.27:828][101]LogTexture: Display: Building textures: HQ_Lightmap0_37 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:828][101]LogTexture: Display: Building textures: LQ_Lightmap_0_37 (DXT1, 512X512)
+[2018.06.26-03.45.27:828][101]LogTexture: Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:829][101]LogTexture: Display: Building textures: LQ_Lightmap_0_38 (DXT1, 512X512)
+[2018.06.26-03.45.27:829][101]LogTexture: Display: Building textures: HQ_Lightmap0_39 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:829][101]LogTexture: Display: Building textures: LQ_Lightmap_0_39 (DXT1, 512X512)
+[2018.06.26-03.45.27:829][101]LogTexture: Display: Building textures: HQ_Lightmap0_40 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:829][101]LogTexture: Display: Building textures: LQ_Lightmap_0_40 (DXT1, 512X512)
+[2018.06.26-03.45.27:830][101]LogTexture: Display: Building textures: HQ_Lightmap0_41 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:830][101]LogTexture: Display: Building textures: LQ_Lightmap_0_41 (DXT1, 512X512)
+[2018.06.26-03.45.27:830][101]LogTexture: Display: Building textures: HQ_Lightmap0_42 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:830][101]LogTexture: Display: Building textures: LQ_Lightmap_0_42 (DXT1, 512X512)
+[2018.06.26-03.45.27:831][101]LogTexture: Display: Building textures: HQ_Lightmap0_43 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:831][101]LogTexture: Display: Building textures: LQ_Lightmap_0_43 (DXT1, 512X512)
+[2018.06.26-03.45.27:831][101]LogTexture: Display: Building textures: HQ_Lightmap0_44 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:831][101]LogTexture: Display: Building textures: LQ_Lightmap_0_44 (DXT1, 512X512)
+[2018.06.26-03.45.27:831][101]LogTexture: Display: Building textures: HQ_Lightmap0_45 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:831][101]LogTexture: Display: Building textures: LQ_Lightmap_0_45 (DXT1, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: HQ_Lightmap0_46 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: LQ_Lightmap_0_46 (DXT1, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: HQ_Lightmap0_47 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: LQ_Lightmap_0_47 (DXT1, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: HQ_Lightmap0_48 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: LQ_Lightmap_0_48 (DXT1, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: HQ_Lightmap0_49 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:832][101]LogTexture: Display: Building textures: LQ_Lightmap_0_49 (DXT1, 512X512)
+[2018.06.26-03.45.27:833][101]LogTexture: Display: Building textures: HQ_Lightmap0_50 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:833][101]LogTexture: Display: Building textures: LQ_Lightmap_0_50 (DXT1, 512X512)
+[2018.06.26-03.45.27:833][101]LogTexture: Display: Building textures: HQ_Lightmap0_51 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:833][101]LogTexture: Display: Building textures: LQ_Lightmap_0_51 (DXT1, 512X512)
+[2018.06.26-03.45.27:833][101]LogTexture: Display: Building textures: HQ_Lightmap0_52 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:833][101]LogTexture: Display: Building textures: LQ_Lightmap_0_52 (DXT1, 512X512)
+[2018.06.26-03.45.27:833][101]LogTexture: Display: Building textures: HQ_Lightmap0_53 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: LQ_Lightmap_0_53 (DXT1, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: HQ_Lightmap0_54 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: LQ_Lightmap_0_54 (DXT1, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: HQ_Lightmap0_55 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: LQ_Lightmap_0_55 (DXT1, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: HQ_Lightmap0_56 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: LQ_Lightmap_0_56 (DXT1, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: HQ_Lightmap0_57 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:834][101]LogTexture: Display: Building textures: LQ_Lightmap_0_57 (DXT1, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: HQ_Lightmap0_58 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: LQ_Lightmap_0_58 (DXT1, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: HQ_Lightmap0_59 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: LQ_Lightmap_0_59 (DXT1, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: HQ_Lightmap0_60 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: LQ_Lightmap_0_60 (DXT1, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: HQ_Lightmap0_61 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: LQ_Lightmap_0_61 (DXT1, 512X512)
+[2018.06.26-03.45.27:835][101]LogTexture: Display: Building textures: HQ_Lightmap0_62 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:836][101]LogTexture: Display: Building textures: LQ_Lightmap_0_62 (DXT1, 512X512)
+[2018.06.26-03.45.27:836][101]LogTexture: Display: Building textures: HQ_Lightmap0_63 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:836][101]LogTexture: Display: Building textures: LQ_Lightmap_0_63 (DXT1, 512X512)
+[2018.06.26-03.45.27:836][101]LogTexture: Display: Building textures: HQ_Lightmap0_64 (AutoDXT, 512X512)
+[2018.06.26-03.45.27:836][101]LogTexture: Display: Building textures: LQ_Lightmap_0_64 (DXT1, 512X512)
+[2018.06.26-03.45.27:836][101]LogTexture: Display: Building textures: HQ_Lightmap0_65 (AutoDXT, 64X64)
+[2018.06.26-03.45.27:836][101]LogTexture: Display: Building textures: LQ_Lightmap_0_65 (DXT1, 64X64)
+[2018.06.26-03.45.28:014][101]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 256X256)
+[2018.06.26-03.45.28:014][101]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 256X256)
+[2018.06.26-03.45.28:016][101]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 256X256)
+[2018.06.26-03.45.28:016][101]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X256)
+[2018.06.26-03.45.28:017][101]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 256X256)
+[2018.06.26-03.45.28:017][101]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 256X256)
+[2018.06.26-03.45.28:018][101]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 256X256)
+[2018.06.26-03.45.28:018][101]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 256X256)
+[2018.06.26-03.45.28:018][101]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 256X256)
+[2018.06.26-03.45.28:018][101]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 256X256)
+[2018.06.26-03.45.28:018][101]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 256X256)
+[2018.06.26-03.45.28:023][101]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 256X256)
+[2018.06.26-03.45.28:023][101]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 256X256)
+[2018.06.26-03.45.28:023][101]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 256X256)
+[2018.06.26-03.45.28:024][101]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 256X256)
+[2018.06.26-03.45.28:024][101]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 256X256)
+[2018.06.26-03.45.28:024][101]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 256X256)
+[2018.06.26-03.45.28:025][101]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 256X256)
+[2018.06.26-03.45.28:025][101]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 256X256)
+[2018.06.26-03.45.28:025][101]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 256X256)
+[2018.06.26-03.45.28:025][101]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 256X256)
+[2018.06.26-03.45.28:026][101]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 256X256)
+[2018.06.26-03.45.28:026][101]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 256X256)
+[2018.06.26-03.45.28:026][101]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 256X256)
+[2018.06.26-03.45.28:026][101]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (G8, 256X256)
+[2018.06.26-03.45.28:026][101]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (G8, 256X256)
+[2018.06.26-03.45.28:027][101]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (G8, 256X256)
+[2018.06.26-03.45.28:027][101]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (G8, 256X256)
+[2018.06.26-03.45.28:027][101]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (G8, 256X256)
+[2018.06.26-03.45.28:027][101]LogTexture: Display: Building textures: ShadowMapTexture2D_33 (G8, 256X256)
+[2018.06.26-03.45.28:027][101]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (G8, 256X256)
+[2018.06.26-03.45.28:028][101]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (G8, 256X256)
+[2018.06.26-03.45.28:028][101]LogTexture: Display: Building textures: ShadowMapTexture2D_35 (G8, 256X256)
+[2018.06.26-03.45.28:028][101]LogTexture: Display: Building textures: ShadowMapTexture2D_34 (G8, 256X256)
+[2018.06.26-03.45.28:028][101]LogTexture: Display: Building textures: ShadowMapTexture2D_36 (G8, 256X256)
+[2018.06.26-03.45.28:029][101]LogTexture: Display: Building textures: ShadowMapTexture2D_37 (G8, 256X256)
+[2018.06.26-03.45.28:029][101]LogTexture: Display: Building textures: ShadowMapTexture2D_38 (G8, 256X256)
+[2018.06.26-03.45.28:029][101]LogTexture: Display: Building textures: ShadowMapTexture2D_41 (G8, 256X256)
+[2018.06.26-03.45.28:032][101]LogTexture: Display: Building textures: ShadowMapTexture2D_40 (G8, 256X256)
+[2018.06.26-03.45.28:032][101]LogTexture: Display: Building textures: ShadowMapTexture2D_39 (G8, 256X256)
+[2018.06.26-03.45.28:032][101]LogTexture: Display: Building textures: ShadowMapTexture2D_42 (G8, 256X256)
+[2018.06.26-03.45.28:036][101]LogTexture: Display: Building textures: ShadowMapTexture2D_43 (G8, 256X256)
+[2018.06.26-03.45.28:036][101]LogTexture: Display: Building textures: ShadowMapTexture2D_45 (G8, 256X256)
+[2018.06.26-03.45.28:037][101]LogTexture: Display: Building textures: ShadowMapTexture2D_44 (G8, 256X256)
+[2018.06.26-03.45.28:037][101]LogTexture: Display: Building textures: ShadowMapTexture2D_46 (G8, 256X256)
+[2018.06.26-03.45.28:038][101]LogTexture: Display: Building textures: ShadowMapTexture2D_47 (G8, 256X256)
+[2018.06.26-03.45.28:038][101]LogTexture: Display: Building textures: ShadowMapTexture2D_48 (G8, 256X256)
+[2018.06.26-03.45.28:044][101]LogTexture: Display: Building textures: ShadowMapTexture2D_49 (G8, 256X256)
+[2018.06.26-03.45.28:109][101]LogTexture: Display: Building textures: ShadowMapTexture2D_50 (G8, 256X256)
+[2018.06.26-03.45.28:110][101]LogTexture: Display: Building textures: ShadowMapTexture2D_52 (G8, 256X256)
+[2018.06.26-03.45.28:110][101]LogTexture: Display: Building textures: ShadowMapTexture2D_54 (G8, 256X256)
+[2018.06.26-03.45.28:110][101]LogTexture: Display: Building textures: ShadowMapTexture2D_51 (G8, 256X256)
+[2018.06.26-03.45.28:111][101]LogTexture: Display: Building textures: ShadowMapTexture2D_53 (G8, 256X256)
+[2018.06.26-03.45.28:111][101]LogTexture: Display: Building textures: ShadowMapTexture2D_55 (G8, 256X256)
+[2018.06.26-03.45.28:111][101]LogTexture: Display: Building textures: ShadowMapTexture2D_57 (G8, 256X256)
+[2018.06.26-03.45.28:112][101]LogTexture: Display: Building textures: ShadowMapTexture2D_58 (G8, 256X256)
+[2018.06.26-03.45.28:112][101]LogTexture: Display: Building textures: ShadowMapTexture2D_56 (G8, 256X256)
+[2018.06.26-03.45.28:112][101]LogTexture: Display: Building textures: ShadowMapTexture2D_61 (G8, 256X256)
+[2018.06.26-03.45.28:112][101]LogTexture: Display: Building textures: ShadowMapTexture2D_59 (G8, 256X256)
+[2018.06.26-03.45.28:113][101]LogTexture: Display: Building textures: ShadowMapTexture2D_66 (G8, 32X32)
+[2018.06.26-03.45.28:113][101]LogTexture: Display: Building textures: ShadowMapTexture2D_60 (G8, 256X256)
+[2018.06.26-03.45.28:113][101]LogTexture: Display: Building textures: ShadowMapTexture2D_63 (G8, 256X256)
+[2018.06.26-03.45.28:113][101]LogTexture: Display: Building textures: ShadowMapTexture2D_62 (G8, 256X256)
+[2018.06.26-03.45.28:113][101]LogTexture: Display: Building textures: ShadowMapTexture2D_64 (G8, 256X256)
+[2018.06.26-03.45.28:114][101]LogTexture: Display: Building textures: ShadowMapTexture2D_65 (G8, 256X256)
+[2018.06.26-03.45.28:171][101]Lightmass on DAXX-PC: 2:13 min total, 1.75 sec importing, 4.05 sec setup, 40.7 sec photons, 1:27 min processing, 0 ms extra exporting [65/65 mappings]. Threads: 10:09 min total, 7:45 min processing.
+[2018.06.26-03.45.28:194][101]LogStaticLightingSystem: Illumination: 2:19 min (5.53 sec encoding lightmaps, 271 ms encoding shadowmaps)
+[2018.06.26-03.45.28:194][101]LogStaticLightingSystem: Lightmap texture memory:  32.0 MB (32.0 MB streaming, 0.0 MB non-streaming), 130 textures
+[2018.06.26-03.45.28:195][101]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 65 textures
+[2018.06.26-03.45.29:185][101]DumpUnbuiltLightIteractions
+[2018.06.26-03.45.29:185][101]Lights with unbuilt interactions: 0
+[2018.06.26-03.45.29:185][101]
+[2018.06.26-03.45.29:185][101]Primitives with unbuilt interactions: 0
+[2018.06.26-03.45.29:200][102]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.26-03.45.29:200][102]MapCheck: New page: MainLvl - Jun 25, 2018, 1:45:29 PM
+[2018.06.26-03.45.29:256][102]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.024ms to complete.
+[2018.06.26-03.46.15:533][619]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.46.15:538][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.46.15:813][619]LogSavePackage: Save=248.65ms
+[2018.06.26-03.46.15:813][619]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvlF44532F24E4FAB3ABF8A46B4D7DF5A39.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.46.15:818][619]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.46.15:844][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.46.19:585][619]LogSavePackage: Save=3732.01ms
+[2018.06.26-03.46.19:586][619]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltData0036725549D3C7C8F7D8A4842F1D7EB5.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.46.19:588][619]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.46.20:710][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.47.00:448][208]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.47.14:215][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.47.36:245][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.48.42:356][725]Cmd: TRANSACTION UNDO
+[2018.06.26-03.48.42:357][725]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.06.26-03.48.42:510][725]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.06.26-03.48.42:558][725]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.48.42:595][725]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.48.42:635][725]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.06.26-03.48.42:687][725]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.06.26-03.48.42:798][725]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.06.26-03.48.54:760][889]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.48.54:764][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.48.54:845][889]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.06.26-03.48.54:856][889]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2018.06.26-03.48.54:866][889]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.06.26-03.48.54:876][889]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.06.26-03.48.54:887][889]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.06.26-03.48.54:898][889]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.06.26-03.48.54:909][889]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.06.26-03.48.54:919][889]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.06.26-03.48.54:930][889]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.06.26-03.48.54:941][889]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.48.54:952][889]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.48.54:963][889]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.06.26-03.48.54:977][889]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.06.26-03.48.54:988][889]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.06.26-03.48.54:998][889]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.06.26-03.48.55:008][889]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.06.26-03.48.55:505][889]LogSavePackage: Save=727.64ms
+[2018.06.26-03.48.55:505][889]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl5857470E41712C05C60111AF071CB3BF.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.48.55:509][889]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.48.55:539][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.48.59:351][889]LogSavePackage: Save=3808.62ms
+[2018.06.26-03.48.59:351][889]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltDataF4D2FA734CDDA17D8FEDD4AFDAFB4448.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.48.59:354][889]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.49.00:322][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.49.00:406][ 12]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.26-03.49.00:420][ 12]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLvl.MainLvl:PersistentLevel' has LevelScriptBlueprint '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl' with GeneratedClass '/Game/MainLvl.MainLvl_C' with ClassGeneratedBy '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl'
+[2018.06.26-03.49.00:420][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.26-03.49.00:421][ 12]PIE: New page: PIE session: MainLvl (Jun 25, 2018, 1:49:00 PM)
+[2018.06.26-03.49.00:421][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLvl
+[2018.06.26-03.49.00:474][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053470s)
+[2018.06.26-03.49.00:475][ 12]LogAIModule: Creating AISystem for world MainLvl
+[2018.06.26-03.49.00:476][ 12]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2018.06.26-03.49.00:476][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLvl.MainLvl to /Game/UEDPIE_0_MainLvl.MainLvl (0.054874s)
+[2018.06.26-03.49.00:515][ 12]LogInit: XAudio2 using 'Headset Earphone (ASTRO Wireless Transmitter )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.06.26-03.49.00:522][ 12]LogInit: FAudioDevice initialized.
+[2018.06.26-03.49.00:566][ 12]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/Battle_Tonk.Battle_TonkGameMode'
+[2018.06.26-03.49.00:566][ 12]LogLoad: Game class is 'GameModeBase'
+[2018.06.26-03.49.00:569][ 12]LogWorld: Bringing World /Game/UEDPIE_0_MainLvl.MainLvl up for play (max tick rate 0) at 2018.06.25-20.49.00
+[2018.06.26-03.49.00:569][ 12]LogWorld: Bringing up level for play took: 0.001974
+[2018.06.26-03.49.00:583][ 12]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.06.26-03.49.00:584][ 12]PIE: Play in editor start time for /Game/UEDPIE_0_MainLvl -0.406
+[2018.06.26-03.49.00:584][ 12]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLvl.MainLvl:PersistentLevel' has LevelScriptBlueprint '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl' with GeneratedClass '/Game/MainLvl.MainLvl_C' with ClassGeneratedBy '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl'
+[2018.06.26-03.49.14:818][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLvl.MainLvl:PersistentLevel' has LevelScriptBlueprint '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl' with GeneratedClass '/Game/MainLvl.MainLvl_C' with ClassGeneratedBy '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl'
+[2018.06.26-03.49.14:849][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLvl.MainLvl:PersistentLevel' has LevelScriptBlueprint '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl' with GeneratedClass '/Game/MainLvl.MainLvl_C' with ClassGeneratedBy '/Game/MainLvl.MainLvl:PersistentLevel.MainLvl'
+[2018.06.26-03.49.23:435][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.49.23:440][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.49.23:921][687]LogSavePackage: Save=471.06ms
+[2018.06.26-03.49.23:921][687]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl24A6A6EB4A8D721CD1C15DBF1761B9ED.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.49.23:926][687]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.49.23:949][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.49.27:957][687]LogSavePackage: Save=4005.31ms
+[2018.06.26-03.49.27:958][687]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltData4A87217A4C4A69ACB57B1684FB0660C6.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.49.27:962][687]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.49.36:263][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.49.37:084][910]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.06.26-03.50.45:091][275]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.50.48:416][612]Cmd: TRANSACTION UNDO
+[2018.06.26-03.50.48:416][612]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.06.26-03.50.48:576][612]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.50.48:606][612]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.50.48:642][612]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.06.26-03.50.48:672][612]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.06.26-03.50.53:324][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.50.56:785][531]Cmd: TRANSACTION UNDO
+[2018.06.26-03.50.56:785][531]LogEditorTransaction: Undo Edit Tool Strength
+[2018.06.26-03.50.58:401][686]Cmd: TRANSACTION UNDO
+[2018.06.26-03.50.58:401][686]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.06.26-03.50.58:499][686]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.50.58:557][686]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.51.00:141][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.51.06:877][563]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.06:877][563]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.06.26-03.51.07:027][563]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.51.07:168][563]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.51.07:229][563]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.06.26-03.51.07:277][563]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.06.26-03.51.08:176][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.51.12:908][124]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.12:908][124]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.06.26-03.51.13:191][124]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.13:191][124]LogEditorTransaction: Undo Edit Tool Strength
+[2018.06.26-03.51.13:374][141]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.13:374][141]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.06.26-03.51.13:455][141]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.06.26-03.51.13:485][141]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.51.13:930][186]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.13:931][186]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.06.26-03.51.14:217][186]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.06.26-03.51.14:260][186]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.51.14:787][234]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.14:787][234]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.06.26-03.51.14:914][234]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.51.14:944][234]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.06.26-03.51.14:975][234]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.06.26-03.51.15:007][234]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.06.26-03.51.15:645][303]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.15:645][303]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.06.26-03.51.15:851][303]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.51.15:885][303]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.51.15:915][303]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.06.26-03.51.15:969][303]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.06.26-03.51.16:511][357]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.16:511][357]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.06.26-03.51.16:718][357]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.06.26-03.51.16:772][357]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.51.16:813][357]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.06.26-03.51.16:848][357]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.06.26-03.51.17:305][407]Cmd: TRANSACTION UNDO
+[2018.06.26-03.51.17:306][407]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.06.26-03.51.19:280][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.26-03.51.58:624][535]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.51.58:629][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.51.58:728][535]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.06.26-03.51.58:740][535]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2018.06.26-03.51.58:750][535]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.06.26-03.51.58:761][535]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.06.26-03.51.58:771][535]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.06.26-03.51.58:781][535]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.06.26-03.51.58:792][535]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.06.26-03.51.58:803][535]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.06.26-03.51.58:814][535]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.06.26-03.51.58:824][535]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.06.26-03.51.58:836][535]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.06.26-03.51.58:846][535]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.06.26-03.51.58:857][535]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.06.26-03.51.58:868][535]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.06.26-03.51.58:879][535]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.06.26-03.51.59:435][535]LogSavePackage: Save=774.69ms
+[2018.06.26-03.51.59:435][535]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvlFF62CBC0442D36A77038BAADF8501049.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.51.59:442][535]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.51.59:479][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.52.03:605][535]LogSavePackage: Save=4074.39ms
+[2018.06.26-03.52.03:605][535]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltData9974D3974954DB6799FBADB96646A4FC.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.52.03:608][535]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
+[2018.06.26-03.52.23:899][ 85]MapCheck: New page: Map Check
+[2018.06.26-03.52.23:907][ 85]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.26-03.52.23:908][ 85]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.26-03.52.23:956][ 85]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.26-03.52.23:961][ 85]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2018.06.26-03.52.23:966][ 85]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.52.23:966][ 85]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.06.26-03.52.24:866][ 85]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.26-03.52.24:867][ 85]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.26-03.52.24:867][ 85]TextureStreamingBuild: Display: Compiling optional shaders took 0.914 seconds.
+[2018.06.26-03.52.24:873][ 85]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2018.06.26-03.52.24:884][ 85]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
+[2018.06.26-03.52.24:904][ 85]LightingResults: New page: Lighting Build - Jun 25, 2018, 1:52:24 PM
+[2018.06.26-03.52.25:024][ 85]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.26-03.52.25:028][ 85]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.26-03.52.25:028][ 85]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.26-03.52.25:029][ 85]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.26-03.52.25:029][ 85]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16156
+[2018.06.26-03.52.29:561][ 85]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.26-03.52.29:561][ 85]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.26-03.52.29:561][ 85]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.26-03.52.29:561][ 85]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.26-03.52.29:561][ 85]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.26-03.52.30:196][ 85]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.26-03.52.30:196][ 85]MapCheck: New page: MainLvl - Jun 25, 2018, 1:52:30 PM
+[2018.06.26-03.52.30:197][ 85]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.06.26-03.52.31:617][ 85]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1,421.033ms to complete.
+[2018.06.26-03.52.31:640][ 85]LogEditorBuildUtils: Build time 0:07
+[2018.06.26-03.52.52:280][615]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Shared/Editor/MapErrors/index.html?utm_source=editor&utm_medium=docs&utm_campaign=msg_log
+[2018.06.26-03.53.14:639][527]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.53.14:643][527]LogSlate: Window 'Message Log' being destroyed
+[2018.06.26-03.54.40:888][802]Job is a success!
+[2018.06.26-03.54.41:344][803]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.06.26-03.54.41:344][803]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.06.26-03.54.41:345][803]LogVolumetricLightmapImport:      BrickData 10x5x5 = 0.0Mb
+[2018.06.26-03.54.41:345][803]LogVolumetricLightmapImport:      Bricks at Level
+[2018.06.26-03.54.41:345][803]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2018.06.26-03.54.41:345][803]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2018.06.26-03.54.41:345][803]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.06.26-03.54.47:728][803]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:728][803]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.06.26-03.54.47:728][803]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:728][803]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2018.06.26-03.54.47:729][803]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:729][803]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 512X512)
+[2018.06.26-03.54.47:729][803]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:729][803]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 512X512)
+[2018.06.26-03.54.47:729][803]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:730][803]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512)
+[2018.06.26-03.54.47:730][803]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:730][803]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 512X512)
+[2018.06.26-03.54.47:730][803]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:730][803]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 512X512)
+[2018.06.26-03.54.47:731][803]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:731][803]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 512X512)
+[2018.06.26-03.54.47:731][803]LogTexture: Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:731][803]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (DXT1, 512X512)
+[2018.06.26-03.54.47:731][803]LogTexture: Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:732][803]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (DXT1, 512X512)
+[2018.06.26-03.54.47:732][803]LogTexture: Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:732][803]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (DXT1, 512X512)
+[2018.06.26-03.54.47:732][803]LogTexture: Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:732][803]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (DXT1, 512X512)
+[2018.06.26-03.54.47:733][803]LogTexture: Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:733][803]LogTexture: Display: Building textures: LQ_Lightmap_1_13 (DXT1, 512X512)
+[2018.06.26-03.54.47:734][803]LogTexture: Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:734][803]LogTexture: Display: Building textures: LQ_Lightmap_1_14 (DXT1, 512X512)
+[2018.06.26-03.54.47:734][803]LogTexture: Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:734][803]LogTexture: Display: Building textures: LQ_Lightmap_1_15 (DXT1, 512X512)
+[2018.06.26-03.54.47:734][803]LogTexture: Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:735][803]LogTexture: Display: Building textures: LQ_Lightmap_1_16 (DXT1, 512X512)
+[2018.06.26-03.54.47:735][803]LogTexture: Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:735][803]LogTexture: Display: Building textures: LQ_Lightmap_1_17 (DXT1, 512X512)
+[2018.06.26-03.54.47:735][803]LogTexture: Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:736][803]LogTexture: Display: Building textures: LQ_Lightmap_1_18 (DXT1, 512X512)
+[2018.06.26-03.54.47:736][803]LogTexture: Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:737][803]LogTexture: Display: Building textures: LQ_Lightmap_1_19 (DXT1, 512X512)
+[2018.06.26-03.54.47:737][803]LogTexture: Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:737][803]LogTexture: Display: Building textures: LQ_Lightmap_1_20 (DXT1, 512X512)
+[2018.06.26-03.54.47:737][803]LogTexture: Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:737][803]LogTexture: Display: Building textures: LQ_Lightmap_1_21 (DXT1, 512X512)
+[2018.06.26-03.54.47:738][803]LogTexture: Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:738][803]LogTexture: Display: Building textures: LQ_Lightmap_1_22 (DXT1, 512X512)
+[2018.06.26-03.54.47:738][803]LogTexture: Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:739][803]LogTexture: Display: Building textures: LQ_Lightmap_1_23 (DXT1, 512X512)
+[2018.06.26-03.54.47:739][803]LogTexture: Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:740][803]LogTexture: Display: Building textures: LQ_Lightmap_1_24 (DXT1, 512X512)
+[2018.06.26-03.54.47:740][803]LogTexture: Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:740][803]LogTexture: Display: Building textures: LQ_Lightmap_1_25 (DXT1, 512X512)
+[2018.06.26-03.54.47:740][803]LogTexture: Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:740][803]LogTexture: Display: Building textures: LQ_Lightmap_1_26 (DXT1, 512X512)
+[2018.06.26-03.54.47:741][803]LogTexture: Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:742][803]LogTexture: Display: Building textures: LQ_Lightmap_1_27 (DXT1, 512X512)
+[2018.06.26-03.54.47:742][803]LogTexture: Display: Building textures: HQ_Lightmap1_28 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:743][803]LogTexture: Display: Building textures: LQ_Lightmap_1_28 (DXT1, 512X512)
+[2018.06.26-03.54.47:743][803]LogTexture: Display: Building textures: HQ_Lightmap1_29 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:743][803]LogTexture: Display: Building textures: LQ_Lightmap_1_29 (DXT1, 512X512)
+[2018.06.26-03.54.47:743][803]LogTexture: Display: Building textures: HQ_Lightmap1_30 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:744][803]LogTexture: Display: Building textures: LQ_Lightmap_1_30 (DXT1, 512X512)
+[2018.06.26-03.54.47:744][803]LogTexture: Display: Building textures: HQ_Lightmap1_31 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:744][803]LogTexture: Display: Building textures: LQ_Lightmap_1_31 (DXT1, 512X512)
+[2018.06.26-03.54.47:744][803]LogTexture: Display: Building textures: HQ_Lightmap1_32 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:744][803]LogTexture: Display: Building textures: LQ_Lightmap_1_32 (DXT1, 512X512)
+[2018.06.26-03.54.47:745][803]LogTexture: Display: Building textures: HQ_Lightmap1_33 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:745][803]LogTexture: Display: Building textures: LQ_Lightmap_1_33 (DXT1, 512X512)
+[2018.06.26-03.54.47:745][803]LogTexture: Display: Building textures: HQ_Lightmap1_34 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:745][803]LogTexture: Display: Building textures: LQ_Lightmap_1_34 (DXT1, 512X512)
+[2018.06.26-03.54.47:745][803]LogTexture: Display: Building textures: HQ_Lightmap1_35 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:746][803]LogTexture: Display: Building textures: LQ_Lightmap_1_35 (DXT1, 512X512)
+[2018.06.26-03.54.47:746][803]LogTexture: Display: Building textures: HQ_Lightmap1_36 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:746][803]LogTexture: Display: Building textures: LQ_Lightmap_1_36 (DXT1, 512X512)
+[2018.06.26-03.54.47:746][803]LogTexture: Display: Building textures: HQ_Lightmap1_37 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:746][803]LogTexture: Display: Building textures: LQ_Lightmap_1_37 (DXT1, 512X512)
+[2018.06.26-03.54.47:746][803]LogTexture: Display: Building textures: HQ_Lightmap1_38 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:747][803]LogTexture: Display: Building textures: LQ_Lightmap_1_38 (DXT1, 512X512)
+[2018.06.26-03.54.47:747][803]LogTexture: Display: Building textures: HQ_Lightmap1_39 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:747][803]LogTexture: Display: Building textures: LQ_Lightmap_1_39 (DXT1, 512X512)
+[2018.06.26-03.54.47:747][803]LogTexture: Display: Building textures: HQ_Lightmap1_40 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:747][803]LogTexture: Display: Building textures: LQ_Lightmap_1_40 (DXT1, 512X512)
+[2018.06.26-03.54.47:747][803]LogTexture: Display: Building textures: HQ_Lightmap1_41 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:748][803]LogTexture: Display: Building textures: LQ_Lightmap_1_41 (DXT1, 512X512)
+[2018.06.26-03.54.47:748][803]LogTexture: Display: Building textures: HQ_Lightmap1_42 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:748][803]LogTexture: Display: Building textures: LQ_Lightmap_1_42 (DXT1, 512X512)
+[2018.06.26-03.54.47:748][803]LogTexture: Display: Building textures: HQ_Lightmap1_43 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:748][803]LogTexture: Display: Building textures: LQ_Lightmap_1_43 (DXT1, 512X512)
+[2018.06.26-03.54.47:749][803]LogTexture: Display: Building textures: HQ_Lightmap1_44 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:749][803]LogTexture: Display: Building textures: LQ_Lightmap_1_44 (DXT1, 512X512)
+[2018.06.26-03.54.47:749][803]LogTexture: Display: Building textures: HQ_Lightmap1_45 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:749][803]LogTexture: Display: Building textures: LQ_Lightmap_1_45 (DXT1, 512X512)
+[2018.06.26-03.54.47:749][803]LogTexture: Display: Building textures: HQ_Lightmap1_46 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:750][803]LogTexture: Display: Building textures: LQ_Lightmap_1_46 (DXT1, 512X512)
+[2018.06.26-03.54.47:750][803]LogTexture: Display: Building textures: HQ_Lightmap1_47 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:750][803]LogTexture: Display: Building textures: LQ_Lightmap_1_47 (DXT1, 512X512)
+[2018.06.26-03.54.47:750][803]LogTexture: Display: Building textures: HQ_Lightmap1_48 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:751][803]LogTexture: Display: Building textures: LQ_Lightmap_1_48 (DXT1, 512X512)
+[2018.06.26-03.54.47:751][803]LogTexture: Display: Building textures: HQ_Lightmap1_49 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:751][803]LogTexture: Display: Building textures: LQ_Lightmap_1_49 (DXT1, 512X512)
+[2018.06.26-03.54.47:751][803]LogTexture: Display: Building textures: HQ_Lightmap1_50 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:751][803]LogTexture: Display: Building textures: LQ_Lightmap_1_50 (DXT1, 512X512)
+[2018.06.26-03.54.47:752][803]LogTexture: Display: Building textures: HQ_Lightmap1_51 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:752][803]LogTexture: Display: Building textures: LQ_Lightmap_1_51 (DXT1, 512X512)
+[2018.06.26-03.54.47:752][803]LogTexture: Display: Building textures: HQ_Lightmap1_52 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:752][803]LogTexture: Display: Building textures: LQ_Lightmap_1_52 (DXT1, 512X512)
+[2018.06.26-03.54.47:752][803]LogTexture: Display: Building textures: HQ_Lightmap1_53 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:753][803]LogTexture: Display: Building textures: LQ_Lightmap_1_53 (DXT1, 512X512)
+[2018.06.26-03.54.47:755][803]LogTexture: Display: Building textures: HQ_Lightmap1_54 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:755][803]LogTexture: Display: Building textures: LQ_Lightmap_1_54 (DXT1, 512X512)
+[2018.06.26-03.54.47:755][803]LogTexture: Display: Building textures: HQ_Lightmap1_55 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:755][803]LogTexture: Display: Building textures: LQ_Lightmap_1_55 (DXT1, 512X512)
+[2018.06.26-03.54.47:756][803]LogTexture: Display: Building textures: HQ_Lightmap1_56 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:756][803]LogTexture: Display: Building textures: LQ_Lightmap_1_56 (DXT1, 512X512)
+[2018.06.26-03.54.47:756][803]LogTexture: Display: Building textures: HQ_Lightmap1_57 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:756][803]LogTexture: Display: Building textures: LQ_Lightmap_1_57 (DXT1, 512X512)
+[2018.06.26-03.54.47:757][803]LogTexture: Display: Building textures: HQ_Lightmap1_58 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:757][803]LogTexture: Display: Building textures: LQ_Lightmap_1_58 (DXT1, 512X512)
+[2018.06.26-03.54.47:757][803]LogTexture: Display: Building textures: HQ_Lightmap1_59 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:757][803]LogTexture: Display: Building textures: LQ_Lightmap_1_59 (DXT1, 512X512)
+[2018.06.26-03.54.47:758][803]LogTexture: Display: Building textures: HQ_Lightmap1_60 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:758][803]LogTexture: Display: Building textures: LQ_Lightmap_1_60 (DXT1, 512X512)
+[2018.06.26-03.54.47:758][803]LogTexture: Display: Building textures: HQ_Lightmap1_61 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:758][803]LogTexture: Display: Building textures: LQ_Lightmap_1_61 (DXT1, 512X512)
+[2018.06.26-03.54.47:758][803]LogTexture: Display: Building textures: HQ_Lightmap1_62 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:759][803]LogTexture: Display: Building textures: LQ_Lightmap_1_62 (DXT1, 512X512)
+[2018.06.26-03.54.47:759][803]LogTexture: Display: Building textures: HQ_Lightmap1_63 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:759][803]LogTexture: Display: Building textures: LQ_Lightmap_1_63 (DXT1, 512X512)
+[2018.06.26-03.54.47:759][803]LogTexture: Display: Building textures: HQ_Lightmap1_64 (AutoDXT, 512X512)
+[2018.06.26-03.54.47:759][803]LogTexture: Display: Building textures: LQ_Lightmap_1_64 (DXT1, 512X512)
+[2018.06.26-03.54.47:759][803]LogTexture: Display: Building textures: HQ_Lightmap1_65 (AutoDXT, 64X64)
+[2018.06.26-03.54.47:760][803]LogTexture: Display: Building textures: LQ_Lightmap_1_65 (DXT1, 64X64)
+[2018.06.26-03.54.47:928][803]LogTexture: Display: Building textures: ShadowMapTexture2D_71 (G8, 256X256)
+[2018.06.26-03.54.47:928][803]LogTexture: Display: Building textures: ShadowMapTexture2D_68 (G8, 256X256)
+[2018.06.26-03.54.47:929][803]LogTexture: Display: Building textures: ShadowMapTexture2D_67 (G8, 256X256)
+[2018.06.26-03.54.47:929][803]LogTexture: Display: Building textures: ShadowMapTexture2D_69 (G8, 256X256)
+[2018.06.26-03.54.47:929][803]LogTexture: Display: Building textures: ShadowMapTexture2D_70 (G8, 256X256)
+[2018.06.26-03.54.47:929][803]LogTexture: Display: Building textures: ShadowMapTexture2D_72 (G8, 256X256)
+[2018.06.26-03.54.47:930][803]LogTexture: Display: Building textures: ShadowMapTexture2D_75 (G8, 256X256)
+[2018.06.26-03.54.47:930][803]LogTexture: Display: Building textures: ShadowMapTexture2D_74 (G8, 256X256)
+[2018.06.26-03.54.47:930][803]LogTexture: Display: Building textures: ShadowMapTexture2D_73 (G8, 256X256)
+[2018.06.26-03.54.47:930][803]LogTexture: Display: Building textures: ShadowMapTexture2D_76 (G8, 256X256)
+[2018.06.26-03.54.47:931][803]LogTexture: Display: Building textures: ShadowMapTexture2D_79 (G8, 256X256)
+[2018.06.26-03.54.47:931][803]LogTexture: Display: Building textures: ShadowMapTexture2D_78 (G8, 256X256)
+[2018.06.26-03.54.47:931][803]LogTexture: Display: Building textures: ShadowMapTexture2D_77 (G8, 256X256)
+[2018.06.26-03.54.47:932][803]LogTexture: Display: Building textures: ShadowMapTexture2D_80 (G8, 256X256)
+[2018.06.26-03.54.47:932][803]LogTexture: Display: Building textures: ShadowMapTexture2D_81 (G8, 256X256)
+[2018.06.26-03.54.47:932][803]LogTexture: Display: Building textures: ShadowMapTexture2D_84 (G8, 256X256)
+[2018.06.26-03.54.47:935][803]LogTexture: Display: Building textures: ShadowMapTexture2D_82 (G8, 256X256)
+[2018.06.26-03.54.47:935][803]LogTexture: Display: Building textures: ShadowMapTexture2D_83 (G8, 256X256)
+[2018.06.26-03.54.47:935][803]LogTexture: Display: Building textures: ShadowMapTexture2D_85 (G8, 256X256)
+[2018.06.26-03.54.47:936][803]LogTexture: Display: Building textures: ShadowMapTexture2D_86 (G8, 256X256)
+[2018.06.26-03.54.47:936][803]LogTexture: Display: Building textures: ShadowMapTexture2D_87 (G8, 256X256)
+[2018.06.26-03.54.47:936][803]LogTexture: Display: Building textures: ShadowMapTexture2D_88 (G8, 256X256)
+[2018.06.26-03.54.47:936][803]LogTexture: Display: Building textures: ShadowMapTexture2D_89 (G8, 256X256)
+[2018.06.26-03.54.47:938][803]LogTexture: Display: Building textures: ShadowMapTexture2D_90 (G8, 256X256)
+[2018.06.26-03.54.47:939][803]LogTexture: Display: Building textures: ShadowMapTexture2D_91 (G8, 256X256)
+[2018.06.26-03.54.47:939][803]LogTexture: Display: Building textures: ShadowMapTexture2D_92 (G8, 256X256)
+[2018.06.26-03.54.47:939][803]LogTexture: Display: Building textures: ShadowMapTexture2D_93 (G8, 256X256)
+[2018.06.26-03.54.47:939][803]LogTexture: Display: Building textures: ShadowMapTexture2D_94 (G8, 256X256)
+[2018.06.26-03.54.47:940][803]LogTexture: Display: Building textures: ShadowMapTexture2D_97 (G8, 256X256)
+[2018.06.26-03.54.47:943][803]LogTexture: Display: Building textures: ShadowMapTexture2D_96 (G8, 256X256)
+[2018.06.26-03.54.47:946][803]LogTexture: Display: Building textures: ShadowMapTexture2D_98 (G8, 256X256)
+[2018.06.26-03.54.47:946][803]LogTexture: Display: Building textures: ShadowMapTexture2D_99 (G8, 256X256)
+[2018.06.26-03.54.47:946][803]LogTexture: Display: Building textures: ShadowMapTexture2D_95 (G8, 256X256)
+[2018.06.26-03.54.47:971][803]LogTexture: Display: Building textures: ShadowMapTexture2D_100 (G8, 256X256)
+[2018.06.26-03.54.47:973][803]LogTexture: Display: Building textures: ShadowMapTexture2D_101 (G8, 256X256)
+[2018.06.26-03.54.47:973][803]LogTexture: Display: Building textures: ShadowMapTexture2D_102 (G8, 256X256)
+[2018.06.26-03.54.47:973][803]LogTexture: Display: Building textures: ShadowMapTexture2D_104 (G8, 256X256)
+[2018.06.26-03.54.47:973][803]LogTexture: Display: Building textures: ShadowMapTexture2D_103 (G8, 256X256)
+[2018.06.26-03.54.48:117][803]LogTexture: Display: Building textures: ShadowMapTexture2D_105 (G8, 256X256)
+[2018.06.26-03.54.48:118][803]LogTexture: Display: Building textures: ShadowMapTexture2D_106 (G8, 256X256)
+[2018.06.26-03.54.48:118][803]LogTexture: Display: Building textures: ShadowMapTexture2D_109 (G8, 256X256)
+[2018.06.26-03.54.48:119][803]LogTexture: Display: Building textures: ShadowMapTexture2D_107 (G8, 256X256)
+[2018.06.26-03.54.48:119][803]LogTexture: Display: Building textures: ShadowMapTexture2D_108 (G8, 256X256)
+[2018.06.26-03.54.48:120][803]LogTexture: Display: Building textures: ShadowMapTexture2D_110 (G8, 256X256)
+[2018.06.26-03.54.48:122][803]LogTexture: Display: Building textures: ShadowMapTexture2D_111 (G8, 256X256)
+[2018.06.26-03.54.48:125][803]LogTexture: Display: Building textures: ShadowMapTexture2D_112 (G8, 256X256)
+[2018.06.26-03.54.48:126][803]LogTexture: Display: Building textures: ShadowMapTexture2D_113 (G8, 256X256)
+[2018.06.26-03.54.48:126][803]LogTexture: Display: Building textures: ShadowMapTexture2D_115 (G8, 256X256)
+[2018.06.26-03.54.48:126][803]LogTexture: Display: Building textures: ShadowMapTexture2D_114 (G8, 256X256)
+[2018.06.26-03.54.48:127][803]LogTexture: Display: Building textures: ShadowMapTexture2D_116 (G8, 256X256)
+[2018.06.26-03.54.48:127][803]LogTexture: Display: Building textures: ShadowMapTexture2D_117 (G8, 256X256)
+[2018.06.26-03.54.48:127][803]LogTexture: Display: Building textures: ShadowMapTexture2D_119 (G8, 256X256)
+[2018.06.26-03.54.48:127][803]LogTexture: Display: Building textures: ShadowMapTexture2D_120 (G8, 256X256)
+[2018.06.26-03.54.48:127][803]LogTexture: Display: Building textures: ShadowMapTexture2D_121 (G8, 256X256)
+[2018.06.26-03.54.48:128][803]LogTexture: Display: Building textures: ShadowMapTexture2D_118 (G8, 256X256)
+[2018.06.26-03.54.48:128][803]LogTexture: Display: Building textures: ShadowMapTexture2D_122 (G8, 256X256)
+[2018.06.26-03.54.48:128][803]LogTexture: Display: Building textures: ShadowMapTexture2D_123 (G8, 256X256)
+[2018.06.26-03.54.48:128][803]LogTexture: Display: Building textures: ShadowMapTexture2D_125 (G8, 256X256)
+[2018.06.26-03.54.48:128][803]LogTexture: Display: Building textures: ShadowMapTexture2D_126 (G8, 256X256)
+[2018.06.26-03.54.48:129][803]LogTexture: Display: Building textures: ShadowMapTexture2D_131 (G8, 32X32)
+[2018.06.26-03.54.48:130][803]LogTexture: Display: Building textures: ShadowMapTexture2D_124 (G8, 256X256)
+[2018.06.26-03.54.48:130][803]LogTexture: Display: Building textures: ShadowMapTexture2D_127 (G8, 256X256)
+[2018.06.26-03.54.48:130][803]LogTexture: Display: Building textures: ShadowMapTexture2D_128 (G8, 256X256)
+[2018.06.26-03.54.48:131][803]LogTexture: Display: Building textures: ShadowMapTexture2D_129 (G8, 256X256)
+[2018.06.26-03.54.48:131][803]LogTexture: Display: Building textures: ShadowMapTexture2D_130 (G8, 256X256)
+[2018.06.26-03.54.48:204][803]Lightmass on DAXX-PC: 2:12 min total, 2.16 sec importing, 4.06 sec setup, 40.1 sec photons, 1:26 min processing, 0 ms extra exporting [65/65 mappings]. Threads: 10:03 min total, 7:40 min processing.
+[2018.06.26-03.54.48:297][803]LogStaticLightingSystem: Illumination: 2:23 min (5.98 sec encoding lightmaps, 355 ms encoding shadowmaps)
+[2018.06.26-03.54.48:298][803]LogStaticLightingSystem: Lightmap texture memory:  32.0 MB (32.0 MB streaming, 0.0 MB non-streaming), 130 textures
+[2018.06.26-03.54.48:298][803]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 65 textures
+[2018.06.26-03.54.48:700][803]DumpUnbuiltLightIteractions
+[2018.06.26-03.54.48:701][803]Lights with unbuilt interactions: 0
+[2018.06.26-03.54.48:701][803]
+[2018.06.26-03.54.48:701][803]Primitives with unbuilt interactions: 0
+[2018.06.26-03.54.48:713][804]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.26-03.54.48:713][804]MapCheck: New page: MainLvl - Jun 25, 2018, 1:54:48 PM
+[2018.06.26-03.54.48:775][804]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.842ms to complete.
+[2018.06.26-03.56.12:487][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.26-03.56.12:491][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.26-03.56.12:997][246]LogSavePackage: Save=493.95ms
+[2018.06.26-03.56.12:997][246]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvlD15BCD54430113DCFE5E10A4FC3ADF92.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap'
+[2018.06.26-03.56.13:002][246]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl.umap
+[2018.06.26-03.56.13:027][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLvl_BuiltData" FILE="../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset" SILENT=true
+[2018.06.26-03.56.14:460][246]LogSavePackage: Save=1430.83ms
+[2018.06.26-03.56.14:460][246]LogSavePackage: Moving '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Saved/MainLvl_BuiltDataCD037E164A84B698EC747A8CC52B08FC.tmp' to '../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset'
+[2018.06.26-03.56.14:466][246]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Daxx/Documents/GitHub/Battle_Tonk/Battle_Tonk/Content/MainLvl_BuiltData.uasset
